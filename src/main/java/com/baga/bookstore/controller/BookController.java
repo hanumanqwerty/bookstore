@@ -23,7 +23,7 @@ import com.baga.bookstore.service.BookService;
 
 import jakarta.validation.Valid;
 
-
+/** BookController to handle http methods. */
 @RestController
 @RequestMapping("/bookstore")
 public class BookController{
